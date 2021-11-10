@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      deven2
 HostName                       jump.ece.uic.edu
-ProcessIdentifier              6083
-ProcessCreationTime_UTC        1635185883
-ProcessCreationTime_Readable   Mon Oct 25 13:18:03 2021 CDT
+ProcessIdentifier              24022
+ProcessCreationTime_UTC        1636565546
+ProcessCreationTime_Readable   Wed Nov 10 11:32:26 2021 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home1/AD/deven2/Logic_Gates/NAND2/symbol/symbol.oa.cdslck
-TimeEditLocked                 Mon Oct 25 15:08:11 2021 CDT
+FilePathUsedToEditLock         /home1/AD/deven2/Logic_Gates/INV_CHAIN_test/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Wed Nov 10 11:32:50 2021 CST

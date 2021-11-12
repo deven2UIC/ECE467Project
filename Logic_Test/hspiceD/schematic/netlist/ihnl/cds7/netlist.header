@@ -1,0 +1,5 @@
+
+** Library name: Logic_Gates
+** Cell name: XNOR2
+** View name: schematic
+.subckt XNOR2 a b out vdd

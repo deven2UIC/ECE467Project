@@ -1,0 +1,8 @@
+m2 net20 a 0 0 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m1 net21 b net20 net20 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m0 out c net21 net21 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m5 out a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m4 out b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m3 out c vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends NAND3
+** End of subcircuit definition.

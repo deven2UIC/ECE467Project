@@ -1,0 +1,23 @@
+( ( net
+( "OUT" "out" )
+( "A" "a" )
+( "GND!" "0" )
+( "VDD" "vdd" )
+( "B" "b" )
+( "C" "c" )
+ )
+( inst
+( "M5" "m5" )
+( "M4" "m4" )
+( "M2" "m2" )
+( "M1" "m1" )
+( "M0" "m0" )
+( "M3" "m3" )
+ )
+( model
+( "NAND3" "NAND3" )
+ )
+( param
+( "Size" "_par0" )
+ )
+ )

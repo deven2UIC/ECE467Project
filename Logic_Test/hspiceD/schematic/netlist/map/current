@@ -1,0 +1,44 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Logic_Test"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "VDD! GND!"
+  hierDelim "^"
+  netlistDir "/home1/AD/deven2/simulation/Logic_Test/hspiceD/schematic/netlist"
+ )
+( net
+( "GND!" "0" )
+( "VDD!" "vdd!" )
+ )
+( model
+( "Logic_Gates/Logic_Test/schematic" "Logic_Test" )
+( "Logic_Gates/NAND2/schematic" "NAND2" )
+( "Logic_Gates/XNOR2/schematic" "XNOR2" )
+( "Logic_Gates/XOR2/schematic" "XOR2" )
+( "Logic_Gates/NAND3/schematic" "NAND3" )
+( "Logic_Gates/NOR2/schematic" "NOR2" )
+ )
+( param
+( "D_b" "d_b" )
+( "Vb2" "vb2" )
+( "Va2" "va2" )
+( "U" "u" )
+( "P_a" "p_a" )
+( "Va1" "va1" )
+( "Vc2" "vc2" )
+( "P_c" "p_c" )
+( "Vb1" "vb1" )
+( "P_b" "p_b" )
+( "Vc1" "vc1" )
+( "D_a" "d_a" )
+( "D_c" "d_c" )
+ )
+( "XNOR2" "ihnl/cds7/map" )
+( "XOR2" "ihnl/cds3/map" )
+( "NAND3" "ihnl/cds11/map" )
+( "Logic_Test" "ihnl/cds1/map" )
+( "NOR2" "ihnl/cds2/map" )
+( "NAND2" "ihnl/cds0/map" )
+ )

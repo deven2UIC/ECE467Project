@@ -1,0 +1,21 @@
+
+** Library name: Logic_Gates
+** Cell name: Logic_Test
+** View name: schematic
+xi47 a b out_xnor2x2 vdd! XNOR2 _par0=2
+xi42 a b out_xnor2x1 vdd! XNOR2 _par0=1
+xi52 a b out_xnor2x3 vdd! XNOR2 _par0=3
+v1 vdd! 0 DC=1
+v3 c 0 PULSE vc1 vc2 0 1e-12 1e-12 d_c p_c
+v2 b 0 PULSE vb1 vb2 0 1e-12 1e-12 d_b p_b
+v0 a 0 PULSE va1 va2 0 1e-12 1e-12 d_a p_a
+xi48 a b out_xor2x2 vdd! XOR2 _par0=2
+xi41 a b out_xor2x1 vdd! XOR2 _par0=1
+xi51 a b out_xor2x3 vdd! XOR2 _par0=3
+xi60 a b c out_nand3 vdd! NAND3 _par0=u
+xi37 a b out_nor2x1 vdd! NOR2 _par0=1
+xi45 a b out_nor2x2 vdd! NOR2 _par0=2
+xi53 a b out_nor2x3 vdd! NOR2 _par0=3
+xi36 a b out_nand2x1 vdd! NAND2 _par0=1
+xi43 a b out_nand2x2 vdd! NAND2 _par0=2
+xi55 a b out_nand2x3 vdd! NAND2 _par0=3

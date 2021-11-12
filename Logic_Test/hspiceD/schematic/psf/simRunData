@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"Logic_Gates\" \"Logic_Test\" \"schematic\" \"\")"
+"simulator" "hspiceD"
+"temperature" "25.0"
+"host" ""
+"date" "Nov 11 18:31:35 2021"
+"title" ""
+"analysisList" "()"
+END

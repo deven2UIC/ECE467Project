@@ -1,0 +1,5 @@
+
+** Library name: Logic_Gates
+** Cell name: NAND2
+** View name: schematic
+.subckt NAND2 a b out vdd

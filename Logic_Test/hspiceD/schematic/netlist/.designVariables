@@ -1,0 +1,2 @@
+.PARAM u=1.0 p_a=1n d_a=0.5n p_b=1n d_b=0.5n p_c=1n d_c=500p va1=1 va2=0 
++	vb1=1 vb2=1 vc1=1 vc2=1

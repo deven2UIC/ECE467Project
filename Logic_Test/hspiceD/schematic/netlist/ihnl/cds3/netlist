@@ -1,0 +1,14 @@
+m11 net36 _a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m10 out _b net36 net36 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m9 net31 a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m8 out b net31 net31 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m1 _b b 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m0 _a a 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m7 out _a net38 net38 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m6 net38 b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m5 out a net33 net33 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m4 net33 _b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m3 _b b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m2 _a a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends XOR2
+** End of subcircuit definition.

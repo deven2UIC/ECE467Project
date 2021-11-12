@@ -1,0 +1,20 @@
+( ( net
+( "OUT" "out" )
+( "A" "a" )
+( "GND!" "0" )
+( "VDD" "vdd" )
+( "B" "b" )
+ )
+( inst
+( "M5" "m5" )
+( "M4" "m4" )
+( "M2" "m2" )
+( "M3" "m3" )
+ )
+( model
+( "NOR2" "NOR2" )
+ )
+( param
+( "Size" "_par0" )
+ )
+ )

@@ -1,0 +1,74 @@
+* "simulator" "HSPICE" 
+* "version" "Q-2020.03 linux64"
+* "format" "HSP"
+* "rundate" "18:31:36 11/11/2021 "
+* "netlist" "input.ckt "
+* "runtitle" "** generated for: hspiced"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 1.000e+00       
++ b = 1.000e+00       
++ c = 1.000e+00       
++ out_nand2x1 = 6.877e-06       
++ out_nand2x2 = 7.086e-06       
++ out_nand2x3 = 7.155e-06       
++ out_nand3 = 1.012e-05       
++ out_nor2x1 = 2.452e-08       
++ out_nor2x2 = 2.329e-08       
++ out_nor2x3 = 2.295e-08       
++ out_xnor2x1 = 1.000e-00       
++ out_xnor2x2 = 1.000e-00       
++ out_xnor2x3 = 1.000e-00       
++ out_xor2x1 = 9.494e-06       
++ out_xor2x2 = 9.480e-06       
++ out_xor2x3 = 9.479e-06       
++ vdd! = 1.000e+00       
++ xi47^_a = 3.648e-06       
++ xi47^_b = 3.651e-06       
++ xi47^net77 = 8.307e-01       
++ xi47^net79 = 1.000e-00       
++ xi47^net80 = 3.409e-06       
++ xi47^net83 = 1.000e-00       
++ xi42^_a = 3.683e-06       
++ xi42^_b = 3.686e-06       
++ xi42^net77 = 8.307e-01       
++ xi42^net79 = 1.000e-00       
++ xi42^net80 = 3.307e-06       
++ xi42^net83 = 1.000e-00       
++ xi52^_a = 3.644e-06       
++ xi52^_b = 3.647e-06       
++ xi52^net77 = 8.307e-01       
++ xi52^net79 = 1.000e-00       
++ xi52^net80 = 3.444e-06       
++ xi52^net83 = 1.000e-00       
++ xi48^_a = 3.647e-06       
++ xi48^_b = 3.647e-06       
++ xi48^net31 = 4.744e-06       
++ xi48^net33 = 1.000e-00       
++ xi48^net36 = 4.740e-06       
++ xi48^net38 = 1.874e-01       
++ xi41^_a = 3.682e-06       
++ xi41^_b = 3.682e-06       
++ xi41^net31 = 4.751e-06       
++ xi41^net33 = 1.000e-00       
++ xi41^net36 = 4.747e-06       
++ xi41^net38 = 1.874e-01       
++ xi51^_a = 3.643e-06       
++ xi51^_b = 3.643e-06       
++ xi51^net31 = 4.743e-06       
++ xi51^net33 = 1.000e-00       
++ xi51^net36 = 4.739e-06       
++ xi51^net38 = 1.874e-01       
++ xi60^net20 = 3.381e-06       
++ xi60^net21 = 6.754e-06       
++ xi37^net19 = 8.092e-01       
++ xi45^net19 = 8.111e-01       
++ xi53^net19 = 8.117e-01       
++ xi36^net18 = 3.442e-06       
++ xi43^net18 = 3.547e-06       
++ xi55^net18 = 3.582e-06       
+***   END: Saved Operating Point ***                     

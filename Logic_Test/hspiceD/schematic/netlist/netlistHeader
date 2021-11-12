@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Nov 11 18:17:04 2021
+** Design library name: Logic_Gates
+** Design cell name: Logic_Test
+** Design view name: schematic
+.GLOBAL vdd!

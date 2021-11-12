@@ -1,0 +1,15 @@
+
+
+.PROBE TRAN
++    V(out_nand3)
++    V(c)
++    V(b)
++    V(a)
+.TRAN 1e-12 2e-9 START=0.0
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2

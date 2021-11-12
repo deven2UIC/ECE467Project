@@ -1,0 +1,7 @@
+"Logic_Gates.NOR3.schematic.termorder" (("A" "B" "C" "GND" "OUT" "VDD") ("A" "B" "C" "GND" "OUT" "VDD"))
+"Logic_Gates.NOR2.schematic.termorder" nil
+"Logic_Gates.NAND3.schematic.termorder" nil
+"Logic_Gates.XOR2.schematic.termorder" nil
+"Logic_Gates.UNIT_INV.schematic.termorder" (("GND" "IN" "OUT" "VDD") ("GND" "IN" "OUT" "VDD"))
+"Logic_Gates.XNOR2.schematic.termorder" nil
+"Logic_Gates.NAND2.schematic.termorder" nil

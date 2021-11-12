@@ -1,0 +1,5 @@
+
+** Library name: Logic_Gates
+** Cell name: NOR2
+** View name: schematic
+.subckt NOR2 a b out vdd

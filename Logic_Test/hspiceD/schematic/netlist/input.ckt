@@ -1,0 +1,120 @@
+** Generated for: hspiceD
+** Generated on: Nov 11 18:17:04 2021
+** Design library name: Logic_Gates
+** Design cell name: Logic_Test
+** Design view name: schematic
+.GLOBAL vdd!
+.PARAM u=1.0 p_a=1n d_a=0.5n p_b=1n d_b=0.5n p_c=1n d_c=500p va1=1 va2=0 
++	vb1=1 vb2=1 vc1=1 vc2=1
+
+
+.PROBE TRAN
++    V(out_nand3)
++    V(c)
++    V(b)
++    V(a)
+.TRAN 1e-12 2e-9 START=0.0
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTG.inc"
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTG.inc"
+
+** Library name: Logic_Gates
+** Cell name: XNOR2
+** View name: schematic
+.subckt XNOR2 a b out vdd
+m11 net80 a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m10 out _b net80 net80 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m9 net77 _a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m8 out b net77 net77 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m1 _b b 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m0 _a a 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m7 out _a net83 net83 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m6 net83 _b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m5 out a net79 net79 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m4 net79 b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m3 _b b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m2 _a a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends XNOR2
+** End of subcircuit definition.
+
+** Library name: Logic_Gates
+** Cell name: XOR2
+** View name: schematic
+.subckt XOR2 a b out vdd
+m11 net36 _a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m10 out _b net36 net36 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m9 net31 a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m8 out b net31 net31 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m1 _b b 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m0 _a a 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m7 out _a net38 net38 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m6 net38 b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m5 out a net33 net33 PMOS_VTG L=45e-9 W='_par0*180e-9'
+m4 net33 _b vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m3 _b b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m2 _a a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends XOR2
+** End of subcircuit definition.
+
+** Library name: Logic_Gates
+** Cell name: NAND3
+** View name: schematic
+.subckt NAND3 a b c out vdd
+m2 net20 a 0 0 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m1 net21 b net20 net20 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m0 out c net21 net21 NMOS_VTG L=45e-9 W='_par0*135e-9'
+m5 out a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m4 out b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m3 out c vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends NAND3
+** End of subcircuit definition.
+
+** Library name: Logic_Gates
+** Cell name: NOR2
+** View name: schematic
+.subckt NOR2 a b out vdd
+m3 out b 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m2 out a 0 0 NMOS_VTG L=45e-9 W='_par0*45e-9'
+m5 net19 a vdd vdd PMOS_VTG L=45e-9 W='_par0*180e-9'
+m4 out b net19 net19 PMOS_VTG L=45e-9 W='_par0*180e-9'
+.ends NOR2
+** End of subcircuit definition.
+
+** Library name: Logic_Gates
+** Cell name: NAND2
+** View name: schematic
+.subckt NAND2 a b out vdd
+m2 net18 a 0 0 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m0 out b net18 net18 NMOS_VTG L=45e-9 W='_par0*90e-9'
+m3 out a vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+m4 out b vdd vdd PMOS_VTG L=45e-9 W='_par0*90e-9'
+.ends NAND2
+** End of subcircuit definition.
+
+** Library name: Logic_Gates
+** Cell name: Logic_Test
+** View name: schematic
+xi47 a b out_xnor2x2 vdd! XNOR2 _par0=2
+xi42 a b out_xnor2x1 vdd! XNOR2 _par0=1
+xi52 a b out_xnor2x3 vdd! XNOR2 _par0=3
+v1 vdd! 0 DC=1
+v3 c 0 PULSE vc1 vc2 0 1e-12 1e-12 d_c p_c
+v2 b 0 PULSE vb1 vb2 0 1e-12 1e-12 d_b p_b
+v0 a 0 PULSE va1 va2 0 1e-12 1e-12 d_a p_a
+xi48 a b out_xor2x2 vdd! XOR2 _par0=2
+xi41 a b out_xor2x1 vdd! XOR2 _par0=1
+xi51 a b out_xor2x3 vdd! XOR2 _par0=3
+xi60 a b c out_nand3 vdd! NAND3 _par0=u
+xi37 a b out_nor2x1 vdd! NOR2 _par0=1
+xi45 a b out_nor2x2 vdd! NOR2 _par0=2
+xi53 a b out_nor2x3 vdd! NOR2 _par0=3
+xi36 a b out_nand2x1 vdd! NAND2 _par0=1
+xi43 a b out_nand2x2 vdd! NAND2 _par0=2
+xi55 a b out_nand2x3 vdd! NAND2 _par0=3
+.END

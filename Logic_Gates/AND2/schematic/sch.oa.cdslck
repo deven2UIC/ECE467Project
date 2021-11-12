@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jkomos2
+HostName                       jump.ece.uic.edu
+ProcessIdentifier              20712
+ProcessCreationTime_UTC        1636659510
+ProcessCreationTime_Readable   Thu Nov 11 13:38:30 2021 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home1/AD/jkomos2/ECE467Project/Logic_Gates/AND2/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Nov 11 14:26:37 2021 CST

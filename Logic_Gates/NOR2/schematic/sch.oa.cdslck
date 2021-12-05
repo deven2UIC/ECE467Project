@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      deven2
+HostName                       jump.ece.uic.edu
+ProcessIdentifier              9864
+ProcessCreationTime_UTC        1638577206
+ProcessCreationTime_Readable   Fri Dec  3 18:20:06 2021 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home1/AD/deven2/Logic_Gates/NOR2/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Dec  3 21:13:22 2021 CST

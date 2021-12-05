@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sun Dec  5 10:22:50 2021 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home1/AD/deven2/SRAM/SRAM_CELLTEST/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Sun Dec  5 12:24:27 2021 CST
+FilePathUsedToEditLock         /home1/AD/deven2/SRAM/SRAM_ARRAY4x4/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Dec  5 12:20:33 2021 CST
